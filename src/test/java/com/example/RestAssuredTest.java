@@ -57,7 +57,7 @@ public class RestAssuredTest {
                 .when()
                 .get("/posts/9999")
                 .then()
-                .statusCode(404);   //not found, matches the expected output
+                .statusCode(404);   //not found, matches the expected output 
     }
 
     @Test
